@@ -1,0 +1,15 @@
+/target/classes/application.properties
+/target/classes/br/com/rovidasoft/leituraapi/model/Autor.class
+/target/classes/br/com/rovidasoft/leituraapi/controller/AutorController.class
+/target/classes/br/com/rovidasoft/leituraapi/repository/AutorRepository.class
+/target/classes/br/com/rovidasoft/leituraapi/service/AutorService.class
+/target/classes/br/com/rovidasoft/leituraapi/model/Leitura.class
+/target/classes/br/com/rovidasoft/leituraapi/LeituraApiApplication.class
+/target/test-classes/br/com/rovidasoft/leituraapi/LeituraApiApplicationTests.class
+/target/classes/br/com/rovidasoft/leituraapi/controller/LeituraController.class
+/target/classes/br/com/rovidasoft/leituraapi/repository/LeituraRepository.class
+/target/classes/br/com/rovidasoft/leituraapi/service/LeituraService.class
+/target/classes/br/com/rovidasoft/leituraapi/model/Livro.class
+/target/classes/br/com/rovidasoft/leituraapi/controller/LivroController.class
+/target/classes/br/com/rovidasoft/leituraapi/repository/LivroRepository.class
+/target/classes/br/com/rovidasoft/leituraapi/service/LivroService.class
