@@ -15,12 +15,12 @@ import java.util.List;
 public class Livro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long id;
-    String titulo;
+    private Long id;
+    private String titulo;
     @ManyToMany
     @JoinTable(name = "livro_autor",
             joinColumns = @JoinColumn(name = "livro_id"),
             inverseJoinColumns = @JoinColumn(name = "autor_id"))
-    List<Autor> autores;
+    private List<Autor> autores;
 
 }

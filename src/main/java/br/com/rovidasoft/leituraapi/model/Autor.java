@@ -16,9 +16,9 @@ import java.util.List;
 public class Autor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
+    private Long id;
+    private String nome;
     @JsonIgnore
     @ManyToMany(mappedBy = "autores")
-    List<Livro> livros;
+    private List<Livro> livros;
 }
